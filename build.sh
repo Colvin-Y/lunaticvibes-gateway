@@ -1,5 +1,5 @@
 #!/bin/bash
-RUN_NAME="lunaticvibes-httpserver"
+RUN_NAME="lunaticvibes-gateway"
 rm -rf  go.sum && go mod tidy && go mod vendor
 rm -rf output
 mkdir output

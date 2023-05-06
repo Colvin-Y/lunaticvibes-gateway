@@ -1,4 +1,4 @@
-module github.com/Colvin-Y/lunaticvibes-httpserver
+module github.com/Colvin-Y/lunaticvibes-gateway
 
 go 1.17
 
