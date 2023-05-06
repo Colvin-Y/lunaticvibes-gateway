@@ -1,3 +1,6 @@
 [submodule "idl"]
 	path = idl
 	url = git@github.com:Colvin-Y/lunaticvibes-idl.git
+[submodule "proto"]
+	path = proto
+	url = git@github.com:Colvin-Y/lunaticvibes-proto.git
