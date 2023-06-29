@@ -3,7 +3,7 @@ curl -X POST \
     -H "Content-Type: application/json" \
     -d '{
         "data": {
-            "userID": "1",
+            "userID": "112345",
             "isCourse": "0",
             "songHash": "hash",
             "clearType": "type",

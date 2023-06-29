@@ -1,8 +1,10 @@
 package main
+
 import (
 	"context"
 	"log"
 	"net/http"
+
 	helloworldpb "github.com/Colvin-Y/lunaticvibes-gateway/proto/helloworld"
 	scorepb "github.com/Colvin-Y/lunaticvibes-gateway/proto/score"
 	"github.com/grpc-ecosystem/grpc-gateway/v2/runtime" // 注意v2版本
@@ -30,7 +32,7 @@ func main() {
 	}
 
 	// 注册Score
-	err = scorepb.RegisterInsertScoreHandler(context.Background(), gwmux, conn)
+	err = scorepb.RegisterScoreHandler(context.Background(), gwmux, conn)
 	if err != nil {
 		log.Fatalln("Failed to register gateway:", err)
 	}
